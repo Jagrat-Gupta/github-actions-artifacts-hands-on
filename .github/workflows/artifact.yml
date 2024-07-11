@@ -27,11 +27,11 @@ jobs:
     - name: Download text file
       uses: actions/download-artifact@v4
       with: 
-        name: hello-artivact
+        name: hello-artifact
         path: ./artifacts/hello.txt
     
     - name: Display text
       run: cat ./artifacts/hello.txt
-      
+
     
       
